@@ -185,8 +185,8 @@ class ImageDescriptor extends AbstractExtensionBlock {
         $scrLp = $this->screenLeftPos;
         $scrTp = $this->screenTopPos;
 
-        $tFileS = tempnam("BewareOfGeeksBearingGifs", "grS");
-        $tFileD = tempnam("BewareOfGeeksBearingGifs", "grD");
+        $tFileS = @tempnam("BewareOfGeeksBearingGifs", "grS");
+        $tFileD = @tempnam("BewareOfGeeksBearingGifs", "grD");
 
         $fhT = new FileHandler();
         $fhT->openFile($tFileS, true);

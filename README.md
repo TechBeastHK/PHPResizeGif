@@ -1,8 +1,13 @@
 # Resize animated Gif files
 
+### Forked from grandt/phpresizegif v1.0.3
 
 This package aims to implement a proper resizing of gif files encompassing the GIF89a specification.
  
+
+### Fixed
+
+Php 7.1 tempnam error notice issue
 
 ## Introduction
 
@@ -23,7 +28,7 @@ often used gif files every time they are used.
 ### Import
 Add this requirement to your `composer.json` file:
 ```json
-    "grandt/phpresizegif": ">=1.0.3"
+    "simplylouis/phpresizegif": ">=1.0.4"
 ```
 
 ### Composer

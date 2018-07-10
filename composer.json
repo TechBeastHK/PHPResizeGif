@@ -1,18 +1,24 @@
 {
-  "name": "grandt/phpresizegif",
+  "name": "simplylouis/phpresizegif",
   "type": "library",
   "description": "GIF89a compliant Gif resizer, including transparency and optimized gifs with sub sized elements.",
   "keywords": ["gif", "animated gif", "resize", "GIF89a"],
-  "homepage": "https://github.com/Grandt/PHPResizeGif",
+  "homepage": "https://github.com/Simplylouis/PHPResizeGif",
   "minimum-stability": "stable",
   "license": "LGPL-2.1",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
     {
       "name": "A. Grandt",
       "email": "php@grandt.com",
       "homepage": "http://grandt.com",
       "role": "Developer"
+    },
+    {
+      "name": "Simplylouis",
+      "email": "louis@simplylouis.com",
+      "homepage": "http://simplylouis.com",
+      "role": "Bug Fixer"
     }
   ],
   "require": {
