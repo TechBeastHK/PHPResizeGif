@@ -37,10 +37,11 @@ class ImageHandler {
      * @return string
      */
     public static function resizeGif($srcFile, $dstFile, $ratio) {
-        $isGdInstalled = (extension_loaded('gd') || extension_loaded('gd2')) && function_exists('gd_info');
-        if ($isGdInstalled) {
-            return self::resizeGifGD($srcFile, $dstFile, $ratio);
-        }
+        // Force imagick
+//        $isGdInstalled = (extension_loaded('gd') || extension_loaded('gd2')) && function_exists('gd_info');
+//        if ($isGdInstalled) {
+//            return self::resizeGifGD($srcFile, $dstFile, $ratio);
+//        }
         if (extension_loaded('imagick')) {
             return self::resizeGifIM($srcFile, $dstFile, $ratio);
         }
